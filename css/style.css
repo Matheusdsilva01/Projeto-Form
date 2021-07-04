@@ -1,0 +1,33 @@
+body{
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    display: inline-block;
+    background-color: #111111;
+    border: 5px double #000000;
+    padding: 30px;
+    border-radius: 10px
+}
+h1{
+    margin-bottom: 45px;
+    text-align: center;
+    color:#009fca;
+}
+label{
+    margin-bottom: 1px;
+    color: white;
+}
+input{
+    margin: 20px auto;
+    display:block;
+    padding: 10px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+.cadastro input{
+    color:white;
+}

@@ -1,0 +1,12 @@
+.inicio{
+    animation-duration: 1s;
+    animation-name: transition;
+}
+@keyframes transition{
+    from{
+        margin-right:-800%;
+    }
+    to{
+        position:initial;
+    }
+}
