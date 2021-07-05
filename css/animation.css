@@ -2,6 +2,7 @@
     animation-duration: 1s;
     animation-name: transition;
 }
+/* uso de "position: initial;" para a animação centralizar, voltando a posição inicial */ 
 @keyframes transition{
     from{
         margin-right:-800%;
