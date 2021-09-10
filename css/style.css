@@ -31,3 +31,6 @@ input{
 .cadastro input{
     color:white;
 }
+#logar,#apagar{
+    border: 2px solid transparent;
+}

@@ -3,7 +3,7 @@ input:focus{
 }
 #logar,#apagar{
     margin-bottom: 20px;
-    width: -webkit-fill-available;
+    width: 100%;
     padding: 10px 85px;
     background-color: #009fca;
     border-radius: 5px;

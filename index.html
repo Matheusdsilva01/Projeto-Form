@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <form id="form" class="inicio">
+    <form class="form">
         <h1>LOGIN</h1>
         <!-- Campo de cadastro -->
         <!-- Sem o label o formulario fica mais bonito visualmente -->
@@ -28,16 +28,17 @@
             </div>
             <div>
                 <label for="Senha">Senha</label>
-                <input type="password" id="Senha" name="Senha" placeholder="******">
+                <input type="password" id="senha" name="Senha" placeholder="******">
             </div>
         </div>
         <!-- Botões de LOGAR e APAGAR CAMPOS -->
         <!-- Uso de input, tentei usar buttom mais quando dava ESPAÇO ocorria quebra de linha -->
-        <div class="pai">
+        <div class="submits">
             <input type="submit" id="logar" value="LOGAR">
             <input type="reset" id="apagar" value="APAGAR CAMPOS">
         </div>
     </form>
+    <script src="./js/validation.js"></script>
 </body>
 
 </html>
